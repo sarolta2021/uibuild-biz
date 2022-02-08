@@ -1,38 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 62px;
+  padding: 27px;
+}
+
+.card {
+  width: 290px;
+  height: 416px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card h2 {
+  color: #33793f;
+  font-size: 48px;
+  font-family: "EB Garamond", serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  font-weight: medium;
+  color: #999;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card p {
+  color: #999;
+  font-size: 24px;
+  font-family: "EB Garamond", serif;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 420px) {
+  .App {
+    flex-direction: column;
   }
 }

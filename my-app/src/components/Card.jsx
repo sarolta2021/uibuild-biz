@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div>
+    <div className="card">
       <h2>{props.name}</h2>
       <h6>{props.restaurant}</h6>
       <p>{props.address}</p>
