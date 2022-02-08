@@ -19,7 +19,7 @@ body {
 .card {
   width: 290px;
   height: 416px;
-  text-align: center;
+  text-align: left;
   background-color: #fff;
 }
 
