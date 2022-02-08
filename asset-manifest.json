@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/uibuild-biz/static/css/main.e6c76959.css",
+    "main.js": "/uibuild-biz/static/js/main.da6e1204.js",
+    "static/js/787.28cb0dcd.chunk.js": "/uibuild-biz/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/uibuild-biz/index.html",
+    "main.e6c76959.css.map": "/uibuild-biz/static/css/main.e6c76959.css.map",
+    "main.da6e1204.js.map": "/uibuild-biz/static/js/main.da6e1204.js.map",
+    "787.28cb0dcd.chunk.js.map": "/uibuild-biz/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c76959.css",
+    "static/js/main.da6e1204.js"
+  ]
+}
